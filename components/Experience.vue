@@ -1,6 +1,6 @@
 <template>
   <div class="p-10">
-    <div class="grid lg:grid-cols-2 grid-cols-1 text-center place-items-center">
+    <div class="grid lg:grid-cols-2 grid-cols-1 place-items-center">
       <div class="sm:mt-10">
         <h1
           class="text-white font-bold lg:text-[4rem] md:text-[2rem] text-[2rem] text-shadow"

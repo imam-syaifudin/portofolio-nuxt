@@ -98,4 +98,12 @@ class Happiness {
   text-shadow: 1px 2px black;
 }
 
+.hero {
+  background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
+  background-position-x: 3em;
+  background-position-y: 5em;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
 </style>

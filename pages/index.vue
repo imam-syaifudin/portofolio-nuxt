@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div>
     <div class="hero-section">
       <HeroSection />
     </div>
@@ -21,12 +21,16 @@ useHead({
   title: "Muhammad Imam - Full Stack Developer",
 });
 </script>
-<style>
+<style scoped>
 
 .hero {
   background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
   background-position-x: 7em;
+  background-position: 100%;
   background-position-y: 20em;
-  background-size: 100%;
+  background-size: 70%;
 }
+
+
+
 </style>

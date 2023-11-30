@@ -15,6 +15,9 @@
         <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
           {{ value.description }}
         </p>
+        <div class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 flex gap-3 justify-center" >
+          <Icon v-for="(icon,index) in value.icon_skil" :key="index" :name="icon"/>
+        </div>
       </li>
     </ol>
   </div>
