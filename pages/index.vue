@@ -1,13 +1,32 @@
 <template>
-    <div>
-        <p class="text-green-900">ASU</p>
+  <div class="hero">
+    <div class="hero-section">
+      <HeroSection />
     </div>
+    <div class="skils">
+      <SkilsSection />
+    </div>
+    <div class="experience">
+      <Experience />
+    </div>
+  </div>
 </template>
 
 <script setup>
+definePageMeta({
+  layout: "layout",
+});
 
 useHead({
-    title: "Muhammad Imam - Full Stack Developer"
-})
-
+  title: "Muhammad Imam - Full Stack Developer",
+});
 </script>
+<style>
+
+.hero {
+  background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
+  background-position-x: 7em;
+  background-position-y: 20em;
+  background-size: 100%;
+}
+</style>

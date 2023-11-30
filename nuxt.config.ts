@@ -5,7 +5,15 @@ export default defineNuxtConfig({
 
   modules: [
     '@element-plus/nuxt',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
+    ['@nuxtjs/google-fonts', {
+      families: {
+        'Heebo': true,
+        download: true,
+        inject: true
+      }
+    }],
   ],
 
 
