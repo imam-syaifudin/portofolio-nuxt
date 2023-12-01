@@ -9,10 +9,13 @@
           class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
           >{{ value.time }}</time
         >
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 class="text-lg font-semibold text-white">
           {{ value.title }}
         </h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        <h3 class="text-lg mt-3 font-semibold text-white">
+          <el-tag type="primary" effect="dark">{{ value.status }}</el-tag>
+        </h3>
+        <p class="mb-4 mt-3 text-base font-normal text-gray-400">
           {{ value.description }}
         </p>
         <div class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400 flex gap-3 justify-center" >
