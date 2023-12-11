@@ -9,6 +9,15 @@
     <div class="experience">
       <Experience />
     </div>
+    <div class="project">
+      <Project/>
+    </div>
+    <div class="contact mt-20">
+      <Contact/>
+    </div>
+    <!-- <div>
+      <Footer/>
+    </div> -->
   </div>
 </template>
 
@@ -20,6 +29,7 @@ definePageMeta({
 useHead({
   title: "Muhammad Imam - Full Stack Developer",
 });
+
 </script>
 <style scoped>
 

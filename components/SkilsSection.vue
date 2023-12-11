@@ -8,7 +8,7 @@
         </p>
       </div>
       <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mt-6 lg:w-[80%] w-[100%]">
-        <Card
+        <UtilsCard
           v-for="(data, index) in skils"
           :key="index"
           :icon="data.icon"

@@ -9,14 +9,14 @@
           My <span class="text-green-500">Experience</span>
         </h1>
         <p
-          class="text-lg lg:w-[50%] mx-auto md:w-[80%] w-[90%] text-[#9fa8b7] mt-2 text-shadow text-center"
+          class="lg:text-lg sm:text-sm lg:w-[50%] mx-auto md:w-[80%] w-[90%] text-[#9fa8b7] mt-2 text-shadow text-center"
         >
-          The development of Nuxt and its ecosystem is led by an international
-          team. From contributors to developer advocates, the community is made
-          up of members with different horizons and skills. We are happy to see
-          new members every day and encourage anyone to join us and help in many
-          ways: answering questions, giving a talk, creating modules and
-          contributing to the core.
+          I have made coding a part of my life, the initial interest was only
+          because of the colorful code editor which looked so cool, then I tried
+          to delve deeper into the world of coding, when I encountered an error
+          and was able to solve it, it was a pleasure in itself for me, more
+          precisely, I liked coding not because money, but coding is the art of
+          fixing bugs
         </p>
         <div class="flex justify-center mt-3">
           <button
@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="mt-5">
-        <Timeline :data="experience" />
+        <UtilsTimeline :data="experience" />
       </div>
     </div>
   </div>

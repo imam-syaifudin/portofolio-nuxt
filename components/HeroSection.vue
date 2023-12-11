@@ -22,16 +22,15 @@
         <p
           class="text-sm lg:w-[80%] md:w-[80%] w-[90%] text-[#9fa8b7] italic mt-2 text-shadow"
         >
-          "Halo nama saya Muhammad Imam Syaifudin, Saya Backend Developer ,
-          Lahir 20 April 2005 Asal Indonesia sekarang masih duduk di bangku smk.
-          Anak kedua dari 3 bersaudara, saya memulai belajar web programing pada
-          saat masih kelas 9 SMP, mulai dari belajar HTML,CSS,PHP dan lainnya.
-          Saat ini saya sedang menempuh pendidikan di SMK NEGRI 6 MALANG"
+          "Hello my name is Muhammad Imam Syaifudin, usually called imam or udin
+          whatever lmao, I am a Full Stack Web Developer, with 1.5 years of
+          developing web applications, I like coding not because of the money,
+          but solving problems is an art for me"
         </p>
         <div class="flex mt-5">
           <button
             type="button"
-            class="focus:outline-none text-white   font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800"
+            class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800"
           >
             <Icon name="tabler:rocket" class="text-xl" /> Get Started
           </button>
@@ -44,7 +43,9 @@
         </div>
       </el-col>
       <el-col :lg="8" :md="24" :sm="24" class="mt-8">
-        <div class="text-white w-full bg-[#0f172a] text-end p-3 px-4 border-b mt-3">
+        <div
+          class="text-white w-full bg-[#0f172a] text-end p-3 px-4 border-b mt-3"
+        >
           <div class="flex justify-between">
             <div>
               <Icon name="logos:javascript" class="text-yellow-200" />
@@ -71,7 +72,6 @@
   </div>
 </template>
 <script setup>
-
 const code = `// Coded By Muhammad Imam
 // No hugs and kissed, just project and coded
 
@@ -105,5 +105,4 @@ class Happiness {
   background-repeat: no-repeat;
   background-size: 40%;
 }
-
 </style>
