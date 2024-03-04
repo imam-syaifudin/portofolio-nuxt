@@ -39,7 +39,7 @@ switch (props.type) {
     break;
   case "green":
     className =
-      "text-gray-90 focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-3 py-1  me-2 mb-2 text-white bg-green-400";
+      "text-gray-90 focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-3 py-1  me-2 mb-2 text-white bg-green-700";
     break;
   case "purple":
     className =

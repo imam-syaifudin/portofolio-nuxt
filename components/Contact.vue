@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-1">
+    <div class="grid grid-cols-1 mt-20">
       <div class="text-center">
         <h1
           class="text-white font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] text-shadow"
@@ -51,7 +51,7 @@
               <Icon name="clarity:email-solid" />
             </span>
             <input
-              type="text"
+              type="email"
               id="website-admin"
               class="rounded-none rounded-e-lg block flex-1 min-w-0 w-full text-sm p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
               placeholder="imam.syaifudin@mail.com"

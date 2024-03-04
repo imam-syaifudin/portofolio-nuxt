@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="hero-section">
+      <TestTab />
+    </div>
+    <div class="hero-section">
       <HeroSection />
     </div>
     <div class="skils">
@@ -12,12 +15,9 @@
     <div class="project">
       <Project/>
     </div>
-    <div class="contact mt-20">
+    <div class="contact">
       <Contact/>
     </div>
-    <!-- <div>
-      <Footer/>
-    </div> -->
   </div>
 </template>
 
@@ -35,9 +35,6 @@ useHead({
 
 .hero {
   background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
-  background-position-x: 7em;
-  background-position: 100%;
-  background-position-y: 20em;
   background-size: 70%;
 }
 

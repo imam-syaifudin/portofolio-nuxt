@@ -22,6 +22,7 @@
         <p
           class="text-sm lg:w-[80%] md:w-[80%] w-[90%] text-[#9fa8b7] italic mt-2 text-shadow"
         >
+        
           "Hello my name is Muhammad Imam Syaifudin, usually called imam or udin
           whatever lmao, I am a Full Stack Web Developer, with 1.5 years of
           developing web applications, I like coding not because of the money,

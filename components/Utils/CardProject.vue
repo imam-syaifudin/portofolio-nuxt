@@ -23,7 +23,7 @@
         <a
           :href="props.linkProject"
           v-if="!props.isPrivat"
-          class="flex w-[40%] items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-green-600 hover:bg-green-700 focus:ring-green-800"
+          class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-green-600 hover:bg-green-700 focus:ring-green-800"
         >
           Visit Project
           <svg
@@ -62,8 +62,9 @@ const props = defineProps({
   description: { type: String, required: true },
   tech: { type: Array, required: true },
   linkProject: { type: String, required: true },
-  isPrivat: { type: String, default: false },
+  isPrivat: { type: Boolean, default: false },
 });
+
 
 </script>
 
