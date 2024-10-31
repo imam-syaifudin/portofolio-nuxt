@@ -1,28 +1,14 @@
 <template>
   <div>
     <el-row class="flex justify-center items-center p-10">
-      <el-col :lg="10" :md="24" :sm="24" class="drop-shadow-lg">
-        <button
-          type="button"
-          class="text-white bg-gradient-to-r from-green-400 rounded-full via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-800 shadow-lg shadow-green-800/80 font-medium text-sm px-5 py-2.5 text-center me-2 mb-2"
-        >
-          Download My CV
-          <Icon name="material-symbols:download" class="text-[20px]" />
-        </button>
-        <h1
-          class="text-white font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] mt-6 text-shadow"
-        >
+      <el-col :lg="10" :md="24" :sm="24">
+        <h1 class="text-white font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] mt-6" >
           Muhammad Imam
         </h1>
-        <h1
-          class="text-green-500 font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] mt-2 text-shadow"
-        >
+        <h1 class="text-green-500 font-bold lg:text-[3rem] md:text-[2rem] text-[2rem]" >
           Full Stack Developer
         </h1>
-        <p
-          class="text-sm lg:w-[80%] md:w-[80%] w-[90%] text-[#9fa8b7] italic mt-2 text-shadow"
-        >
-        
+        <p class="text-sm lg:w-[80%] md:w-[80%] w-[90%] text-[#9fa8b7] italic mt-2" >
           "Hello my name is Muhammad Imam Syaifudin, usually called imam or udin
           whatever lmao, I am a Full Stack Web Developer, with 1.5 years of
           developing web applications, I like coding not because of the money,
@@ -33,35 +19,27 @@
             type="button"
             class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800"
           >
-            <Icon name="tabler:rocket" class="text-xl" /> Get Started
+            <Icon name="tabler:rocket" class="text-xl" /> Download CV
           </button>
           <button
             type="button"
-            class="text-gray-90 focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
+            class="text-gray-90 focus:outline-none border focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
           >
             <Icon name="fa6-brands:get-pocket" class="text-xl" /> Hire Me
           </button>
         </div>
       </el-col>
       <el-col :lg="8" :md="24" :sm="24" class="mt-8">
-        <div
-          class="text-white w-full bg-[#0f172a] text-end p-3 px-4 border-b mt-3"
-        >
+        <div class="text-white w-full bg-[#0f172a] text-end p-3 px-4 border-b mt-3" >
           <div class="flex justify-between">
             <div>
               <Icon name="logos:javascript" class="text-yellow-200" />
               profile.js
             </div>
             <div class="flex gap-2">
-              <div
-                class="bg-red-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg"
-              ></div>
-              <div
-                class="bg-yellow-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg"
-              ></div>
-              <div
-                class="bg-green-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg"
-              ></div>
+              <div class="bg-red-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg" ></div>
+              <div class="bg-yellow-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg" ></div>
+              <div class="bg-green-500 rounded-full w-4 h-4 mt-1 drop-shadow-lg" ></div>
             </div>
           </div>
         </div>
@@ -84,7 +62,7 @@ const identity = {
   programming_languange: ['Javascript', 'PHP'],
   framework: ['Express JS', 'Laravel', 'Vue JS', 'Nuxt JS'],
   born: "Malang, 20 Apr 2005",
-  developing_website_experience: "1 Year",
+  developing_website_experience: "1 + Year",
 }
 
 class Happiness {
@@ -102,8 +80,7 @@ class Happiness {
 .hero {
   background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
   background-position-x: 3em;
-  background-position-y: 5em;
+  background-position-y: -1em;
   background-repeat: no-repeat;
-  background-size: 40%;
 }
 </style>

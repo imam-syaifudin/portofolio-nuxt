@@ -1,9 +1,7 @@
 <template>
-  <div class="container mx-auto p-10 px-1">
+  <div class="container mx-auto px-1">
     <div class="grid grid-cols-1 text-center">
-      <p
-        class="font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] text-shadow text-white"
-      >
+      <p class="font-bold lg:text-[3rem] md:text-[2rem] text-[2rem] text-shadow text-white" >
         <Icon name="fontisto:ampproject" class="text-green-500" />
         My <span class="text-green-500">Projects</span>
       </p>

@@ -1,21 +1,18 @@
 <template>
   <div>
-    <div class="hero-section">
-      <TestTab />
-    </div>
-    <div class="hero-section">
+    <div class="hero-section bg-gradient-to-b from-[#161f32] to-[#383f5000]">
       <HeroSection />
     </div>
-    <div class="skils">
+    <div class="skils bg-gradient-to-t from-[#161f32] to-[#383f5000]">
       <SkilsSection />
     </div>
-    <div class="experience">
+    <div class="experience bg-gradient-to-b from-[#161f32] to-[#383f5000]">
       <Experience />
     </div>
-    <div class="project">
+    <div class="project bg-gradient-to-t from-[#161f32] to-[#383f5000]">
       <Project/>
     </div>
-    <div class="contact">
+    <div class="contact bg-gradient-to-b from-[#161f32] to-[#383f5000]">
       <Contact/>
     </div>
   </div>
@@ -35,9 +32,7 @@ useHead({
 
 .hero {
   background-image: url("https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg");
-  background-size: 70%;
+  background-size: 65%;
 }
-
-
 
 </style>
